@@ -2,7 +2,7 @@
 
 Internal platform for tracking machine learning experiments,
 monitoring RL training runs, exploring finetuning datasets,
-and analyzing time series metrics — built for research teams.
+and analyzing time series metrics built for research teams.
 
 ## Overview
 
@@ -13,17 +13,17 @@ metrics over time, and understand what happened in each experiment.
 
 ## Features
 
-- **Experiment Management** — Create and catalog experiments with
+- **Experiment Management** - Create and catalog experiments with
   dataset lineage, versioning, and provenance tracking
-- **Run Tracking** — Log hyperparameters, configs, and run status
+- **Run Tracking** - Log hyperparameters, configs, and run status
   for every training run
-- **Time Series Metrics** — Ingest high-volume step-level metrics
+- **Time Series Metrics** - Ingest high-volume step-level metrics
   (loss, reward, accuracy) with batch logging support
-- **Data Cataloging** — Tag datasets, track lineage, and store
+- **Data Cataloging** - Tag datasets, track lineage, and store
   metadata for reproducibility
-- **Interactive Dashboard** — Visualize training curves and compare
+- **Interactive Dashboard** - Visualize training curves and compare
   runs across experiments
-- **REST API** — Full FastAPI backend with OpenAPI docs at `/docs`
+- **REST API** - Full FastAPI backend with OpenAPI docs at `/docs`
 
 ## Tech Stack
 
